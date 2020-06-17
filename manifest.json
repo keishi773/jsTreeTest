@@ -1,13 +1,17 @@
 {
     "manifest_version": 2,
-    "name": "Generic",
-    "description": "Skelton",
+    "name": "Iconed",
+    "description": "Added Icons to Generic application.",
     "version": "1.0",
     "app": {
         "background": {
             "scripts": [
                 "js/background.js"
             ]
+        },
+        "icons":{
+            "16": "icon/calculator-16.png",
+            "128": "icon/calculator-128.png"
         }
     }
 }
