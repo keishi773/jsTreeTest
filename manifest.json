@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Generic",
+    "description": "Skelton",
+    "version": "1.0",
+    "app": {
+        "background": {
+            "scripts": [
+                "js/background.js"
+            ]
+        }
+    }
+}
